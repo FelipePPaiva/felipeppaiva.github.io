@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+}
+body{
+    background: linear-gradient(180deg, rgba(38,65,194,1) 0%, rgba(0,171,255,1) 100%);
+    background-repeat: no-repeat;
+}
+
+/* Configuração do cabeçalho */
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagem-principal{
+    width: 130px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 15px white;
+}
+
+h1{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    text-shadow: 2px 1px 5px #000000;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    text-shadow: 2px 1px 5px #000000;
+    margin-top: 3px;
+}
+
+/* Fim da Configuração */
+/* Configuração do Menu list */
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 25px 0;
+}
+
+.social img{
+    width: 35px;
+}
+/* Fim da configuração */
+/* Configuração do link list */
+
+.list{
+    list-style: none;
+    
+}
+
+.list li{
+    margin: 10px 20px;
+}
+
+.list li a{
+    display:block;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px white;
+    color: #FF750D; 
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 800; 
+}
+
+.list li a span{
+    display: block;
+    color: #3f3e3e;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
