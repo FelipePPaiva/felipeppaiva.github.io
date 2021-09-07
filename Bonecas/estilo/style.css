@@ -1,0 +1,40 @@
+body{
+    background: #F28177;
+}
+
+.conteiner{
+    width:50%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 1px 3px 10px white;
+    border-radius: 0 5px 5px 5px;
+}
+
+h1{
+    text-align: center;
+    color: #1B3C59;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.social-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+
+}
+
+.social-list li a img{
+    width: 40px;
+}
+
+.photos{
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    margin: 3px auto;
+}
+
+.gato{
+    width: 400px;
+}
