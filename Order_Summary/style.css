@@ -1,0 +1,119 @@
+body{
+    background-color: hsl(216, 75%, 92%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.contents{
+    margin: auto;
+    margin-top: 180px;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    text-align: justify;
+    
+}
+
+#imagem-principal{
+    border-radius: 20px 20px 0 0;
+    width: 400px;
+}
+
+h2{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.paragrafoPrimario{
+    padding-left: 50px;
+    font-weight: 500;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.boxPlano{
+    width: 300px;
+    height: 100px;
+    background-color:#e6ecfd65;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#iconMusic{
+    margin: 26px 0 26px 20px;
+}
+
+.valor{
+    position: absolute;
+    margin: 26px 10px 26px 20px;
+    font-size:14px;
+    font-weight: 700;
+}
+
+p{
+    margin-top:4px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.mudarPlano{
+    position: absolute;
+    margin: 35px 10px 26px 150px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.payment-buttom{
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 280px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 10px 15px hsla(245, 75%, 52%, 0.555)
+}
+
+.payment-buttom:hover{
+    display: block;
+    background-color: hsl(245, 64%, 67%);
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 280px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 10px 15px hsla(245, 75%, 52%, 0.555)
+}
+
+#link-cancelamento{
+    display: block;
+    margin-top: 35px;
+    text-decoration: none;
+    color: #3e3e3f;
+    font-weight: 600;
+    text-align: center;
+}
+
+#link-cancelamento:hover{
+    display: block;
+    margin-top: 35px;
+    text-decoration: underline;
+    color: #2e87ec;
+    font-weight: 600;
+    text-align: center;
+}
