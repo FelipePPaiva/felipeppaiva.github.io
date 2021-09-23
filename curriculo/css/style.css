@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #028090;
     color: #0C1618;
@@ -55,13 +61,14 @@ h3{
 /*Configuração do Content*/
 
 .content{
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: justify;
     width:70%
 }
 
 .content h1, h2{
     color: #F4B942;
+    margin: 10px 0;
 }
 
 .exp-list{
