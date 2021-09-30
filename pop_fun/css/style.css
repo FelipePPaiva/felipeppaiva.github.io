@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+}
+
+.header{
+    background: linear-gradient(180deg, rgba(240,138,0,1) 0%, rgba(254,188,39,1) 100%);
+    text-align: center;
+    font-size:3em;
+    font-family: 'Luckiest Guy', cursive;
+    padding: 20px;
+    display: flex; /* Usado para colocar os elementos navbar e content lado a lado*/
+}
+
+.logo{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 35px white;
+
+}
+
+.header h1{
+    margin: auto; /* Usado para alinhar a imagem (logo) com o H1*/
+    text-shadow: 10px 2px 6px #000000;
+    color: #F1A200;
+    
+}
+
+.header h1 span{
+    color:#E2411E;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.container{
+    display: flex; /* Usado para colocar os elementos navbar e content lado a lado*/
+    border: 1px solid #FFFFFF;
+}
+
+.navbar{
+    width: 30%;
+    background-color: #febe27a8;
+    padding:20px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color:#E2411E;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover{
+    display: block;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: linear-gradient(180deg, rgba(240,138,0,1) 0%, rgba(254,188,39,1) 100%);
+    border-radius: 0 10px 0 10px;
+}
+
+.content{
+    width: 70%;
+    padding:30px;
+    background-color:#febc27a8;
+}
+
+.content h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.video{
+    display: block;
+    margin: 10px auto;
+}
+
+.imagem-principal{
+    width: 200px;
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto;
+}
+
+.footer{
+    background: linear-gradient(0deg, rgba(240,138,0,1) 0%, rgba(254,188,39,1) 100%);
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social-list{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+}
+
+.social-list li a img{
+    margin: 15px;
+    width: 50px;
+}
